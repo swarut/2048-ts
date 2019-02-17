@@ -1,0 +1,10 @@
+body {
+  background-color: teal;
+}
+
+#root {
+  padding: 20px;
+  margin: auto;
+
+  @import 'components/Board';
+}

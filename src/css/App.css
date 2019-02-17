@@ -1,0 +1,8 @@
+body {
+  background-color: teal; }
+
+#root {
+  padding: 20px;
+  margin: auto; }
+  #root .board {
+    background-color: salmon; }
