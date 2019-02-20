@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "App.css",
+	"sources": [
+		"../scss/App.scss",
+		"../scss/components/Board.scss"
+	],
+	"sourcesContent": [
+		"body {\n  background-color: teal;\n}\n\n#root {\n  padding: 20px;\n  margin: auto;\n\n  @import 'components/Board';\n}\n",
+		".board {\n  background-color: salmon;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,IAAI,GACvB;;AAED,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI,GAGb;EALD,ACJA,KDIK,CCJL,MAAM,CAAC;IACL,gBAAgB,EAAE,MAAM,GACzB"
+}

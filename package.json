@@ -13,7 +13,7 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "build-css": "node-sass-chokidar src/scss/app.scss src/css/app.scss",
-    "watch-css": "npm run build-css && node-sass-chokidar src/scss -o src/css --watch --recursive"
+    "watch-css": "npm run build-css && node-sass-chokidar src/scss -o src/css --watch --recursive --source-map true --source-map-contents sass"
   },
   "devDependencies": {
     "@types/jest": "^24.0.5",

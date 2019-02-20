@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "Board.css",
+	"sources": [
+		"../../scss/components/Board.scss"
+	],
+	"sourcesContent": [
+		".board {\n  background-color: salmon;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC;EACL,gBAAgB,EAAE,MAAM,GACzB"
+}
